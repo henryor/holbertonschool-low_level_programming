@@ -1,9 +1,8 @@
 #include<stdio.h>
 /*
- *main print sizes of computer
  *return 0
+ *main - print pc sizes
  */
-
 int main(void)
 {
 int intType;
