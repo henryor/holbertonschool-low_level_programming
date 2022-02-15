@@ -8,8 +8,8 @@
 int main(void)
 {
 char ch;
-char e;
-char q;
+char e = "e";
+char q = "q";
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 if (ch != e && ch != q)
