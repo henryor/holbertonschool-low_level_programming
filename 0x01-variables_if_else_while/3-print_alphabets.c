@@ -1,27 +1,16 @@
 #include <stdio.h>
 /**
- * main - print the alphabet in lower case
+ * main - print the alphabet in lower and upper case
  * only use putchar
  * Return: (0)
  */
-
-int main lowercaseAlphabets(void)
-{
-for (int c = 97; c <= 122; ++c)
-printf("%c ", c);
-printf("\n");
-}
-int main uppercaseAlphabets(void)
-{
-for (int c = 65; c <= 90; ++c)
-printf("%c ", c);
-printf("\n");
-}
 int main(void)
 {
-printf("Uppercase Alphabets\n");
-uppercaseAlphabets();
-printf("Lowercase Alphabets\n");
-lowercaseAlphabets();
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+putchar(ch);
+for (ch = 'A'; ch <= 'Z'; ch++)
+putchar(ch);
+putchar('\n');
 return (0);
 }
