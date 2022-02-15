@@ -1,0 +1,27 @@
+#include <stdio.h>
+/**
+ * main - print the alphabet in lower case
+ * only use putchar
+ * Return: (0)
+ */
+
+int main lowercaseAlphabets(void)
+{
+for (int c = 97; c <= 122; ++c)
+printf("%c ", c);
+printf("\n");
+}
+void uppercaseAlphabets(void)
+{
+for (int c = 65; c <= 90; ++c)
+printf("%c ", c);
+printf("\n");
+}
+int main(void)
+{
+printf("Uppercase Alphabets\n");
+uppercaseAlphabets();
+printf("Lowercase Alphabets\n");
+lowercaseAlphabets();
+return (0);
+}
