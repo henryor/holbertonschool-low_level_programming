@@ -4,11 +4,10 @@
  * use putchar
  * Return: (0)
  */
-
 int main(void)
 {
-int c;
-for (c = '0'; c <= '9'; c++)
+int i;
+for (i = '0'; i <= '9'; i++)
 putchar(c);
 putchar('\n');
 return (0);
