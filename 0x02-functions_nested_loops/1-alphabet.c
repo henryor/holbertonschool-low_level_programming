@@ -1,11 +1,20 @@
+/*
+* Auth; Henry Ortegon g
+*/
+
 #include "main.h"
+
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - print alphabet in lower case
+ * use _putchar
+ * Return: (0)
  */
-int main(void)
+
+void print_alphabet(void);
 {
-print_alphabet();
+char ch;
+for (ch= 'a'; ch <= 'z'; ch++)
+_putchar(ch);
+_putchar('\n');
 return (0);
 }
