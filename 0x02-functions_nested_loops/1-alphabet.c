@@ -5,7 +5,7 @@
 #include "main.h"
 
 /**
- * main - print alphabet in lower case
+ * print_alphabet - function that prints the alphabet, in lowercase
  * use _putchar
  * Return: (0)
  */
@@ -13,7 +13,7 @@
 void print_alphabet(void)
 {
 int ch;
-for (ch= 'a'; ch <= 'z'; ch++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
 _putchar(ch);
 }
