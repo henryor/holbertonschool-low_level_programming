@@ -1,9 +1,15 @@
-#include <stdio.h>
+/*
+* Auth: Henry Ortegon g
+*/
+
+#include "main.h"
+
 /**
  * main - print _putchar
  * use putchar
  * Return: (0)
  */
+
 int main(void)
 {
 char s = '_';
