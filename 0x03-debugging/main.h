@@ -1,16 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
+#include <stdio>
 
-/**
- * @brief File main.h
- * Auth: Henry Ortegon g.
- * Description: file content declarations for 0x02-functions-nested_loops
- * 
- */
-
-void positive_or_negative(int n);
+void positive_or_negative(int i);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
