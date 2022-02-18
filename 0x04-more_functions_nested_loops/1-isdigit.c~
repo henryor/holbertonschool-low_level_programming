@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * _isdigit - check for a digit
+ * @c: variable
+ * Returns: (0)
+ * auth: Henry Ortegon G.
+ **/
+
+int _isdigit(int c)
+{
+char c = 5;
+printf("1", _isdigit(c));
+
+c = '+';
+printf("0", _isdigit(c));
+}
