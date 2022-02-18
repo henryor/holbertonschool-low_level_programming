@@ -1,9 +1,9 @@
 #include "main"
 
 /**
- * _supper- check for uppercase character
- * @c c - variable
- * Return (0)
+ * _isupper - check for uppercase character
+ * @c: variable
+ * Return: (0)
  * auth: Henry Ortegon G.
  **/
 
