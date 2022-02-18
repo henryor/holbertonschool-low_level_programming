@@ -3,7 +3,7 @@
 /**
  * _isdigit - check for a digit
  * @c: variable
- * Returns: (0)
+ * Return: (0)
  * auth: Henry Ortegon G.
  **/
 
