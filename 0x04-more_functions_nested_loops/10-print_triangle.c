@@ -17,18 +17,18 @@ for (y = 1; y <= size; y++)
 {
 if (y <= size - x)
 {
-putchar(' ');
+_putchar(' ');
 }
 else
 {
-putchar('#');
+_putchar('#');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 else
 {
-putchar('\n');
+_putchar('\n');
 }
 }
